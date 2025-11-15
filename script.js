@@ -16,7 +16,7 @@ if (textRe.test(namePrompt)) {
     data.forEach(input => input.value = null)
     }
 })
-} else  alert('Invalid data!');
- output.innerText = `~ Reload page ~`;
+} else  {alert('Invalid data!');
+ output.innerText = `~ Reload page ~`;}
 
 
